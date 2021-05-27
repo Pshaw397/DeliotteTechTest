@@ -45,7 +45,7 @@ namespace RaindropTests
         [TestCase(70, "PlangPlong")]
         [TestCase(21, "PlingPlong")]
         [TestCase(35, "PlangPlong")]
-        public void AFactorOf2NumbersIsInput_OutputIsCombinationOfValidFactorWords(int input, string result)
+        public void AFactorOf2NumbersIsInput_OutputIsTheCombinationOfValidFactorWords(int input, string result)
         {
             Assert.That(Program.NumConvert(input), Is.EqualTo(result));
         }
