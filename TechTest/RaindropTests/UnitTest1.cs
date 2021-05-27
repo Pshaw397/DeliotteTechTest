@@ -13,5 +13,14 @@ namespace RaindropTests
         {
             Assert.That(Program.NumConvert(input), Is.EqualTo(result));
         }
+
+        [TestCase(5, "Plang")]
+        [TestCase(10, "Plang")]
+        [TestCase(20, "Plang")]
+        [TestCase(25, "Plang")]
+        public void AFactorOf5IsInput_OutputIsPlang(int input, string result)
+        {
+            Assert.That(Program.NumConvert(input), Is.EqualTo(result));
+        }
     }
 }
