@@ -3,7 +3,7 @@ using TechTest;
 
 namespace RaindropTests
 {
-    public class Tests
+    public class TestFramework
     {
         [TestCase(3, "Pling")]
         [TestCase(6, "Pling")]
