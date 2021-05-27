@@ -22,5 +22,14 @@ namespace RaindropTests
         {
             Assert.That(Program.NumConvert(input), Is.EqualTo(result));
         }
+
+        [TestCase(7, "Plong")]
+        [TestCase(14, "Plong")]
+        [TestCase(28, "Plong")]
+        [TestCase(49, "Plong")]
+        public void AFactorOf7IsInput_OutputIsPlong(int input, string result)
+        {
+            Assert.That(Program.NumConvert(input), Is.EqualTo(result));
+        }
     }
 }
