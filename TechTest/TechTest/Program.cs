@@ -2,7 +2,7 @@
 
 namespace TechTest
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -14,7 +14,7 @@ namespace TechTest
             Console.WriteLine(NumConvert(34));
         }
 
-        static string NumConvert(int n)
+        public static string NumConvert(int n)
         {
             string result = "";
             if(n % 3 == 0)
