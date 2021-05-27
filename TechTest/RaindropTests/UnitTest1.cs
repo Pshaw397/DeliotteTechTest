@@ -31,5 +31,14 @@ namespace RaindropTests
         {
             Assert.That(Program.NumConvert(input), Is.EqualTo(result));
         }
+
+        [TestCase(8, "8")]
+        [TestCase(13, "13")]
+        [TestCase(17, "17")]
+        [TestCase(26, "26")]
+        public void AnInvalidFactorIs_OutputIsInputNumber(int input, string result)
+        {
+            Assert.That(Program.NumConvert(input), Is.EqualTo(result));
+        }
     }
 }
